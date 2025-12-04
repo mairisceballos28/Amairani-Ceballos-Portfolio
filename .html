@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amairani Ceballos | Writing Portfolio</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.7;
+            padding: 0 20px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 60px 20px 40px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Sections */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #222;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        /* About */
+        #about p {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        /* Writing Samples */
+        .sample {
+            margin-bottom: 30px;
+            border: 1px solid #eee;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        .sample h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            cursor: pointer;
+            color: #1a73e8;
+        }
+        .sample p {
+            margin-top: 10px;
+        }
+        .sample-content {
+            display: none;
+            margin-top: 10px;
+        }
+
+        /* Contact */
+        #contact p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        #contact a.button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #1a73e8;
+            color: #fff;
+            border-radius: 5px;
+        }
+        #contact a.button:hover {
+            background-color: #155ab6;
+        }
+
+        /* Responsive */
+        @media(max-width: 600px){
+            header h1 {
+                font-size: 2em;
+            }
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Amairani Ceballos</h1>
+        <p>Creative Writer | Storyteller | Cultural Observer</p>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate writer dedicated to capturing life, culture, and personal journeys through immersive storytelling. My work blends vivid imagery, emotional depth, and authentic characters to engage readers and spark curiosity.</p>
+    </section>
+
+    <!-- Writing Samples -->
+    <section id="samples">
+        <h2>Writing Samples</h2>
+
+        <div class="sample">
+            <h3 onclick="toggleSample(this)">Jaguarlandia</h3>
+            <div class="sample-content">
+                <p>"I always thought that one's personal psychology, embodied in one's face, was the most interesting subject." — Chuck Close</p>
+                <p>The scent of salmon burgers and beer on a Friday afternoo
